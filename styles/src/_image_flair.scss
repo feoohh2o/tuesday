@@ -1,0 +1,128 @@
+div.md.wiki a[href^="/flair-"]::before, .flair-image::before {
+  background: url(%%spritesheet-flair%%) no-repeat top left;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  content: "";
+  margin-left: -45px;
+  margin-top: -15px;
+  visibility: visible;
+}
+
+
+div.md.wiki a[href^="/flair-"], .flair-image {
+  margin-left: 40px;
+}
+
+.sidecontentbox .flair-image::before {
+  display: none;
+}
+.sidecontentbox .flair-image {
+  margin-left: 0px;
+}
+
+
+div.md.wiki a[href="/flair-democrat"]::before, .flair-image-democrat::before { 
+  background-position: 0 -149px;
+}
+
+div.md.wiki a[href="/flair-republican"]::before, .flair-image-republican::before { 
+  background-position: -0px -99px; 
+}
+
+div.md.wiki a[href="/flair-dino"]::before, .flair-image-dino::before { 
+  background-position: 0 -49px; 
+}
+
+div.md.wiki a[href="/flair-rhino"]::before, .flair-image-rhino::before  { 
+  background-position: 0 0; 
+  height: 39px; 
+}
+
+div.md.wiki a[href="/flair-rino"]::before, .flair-image-rino::before  { 
+  background-position: 0 -199px; 
+  
+}
+div.md.wiki a[href="/flair-dino1"]::before, .flair-image-dino1::before { 
+  background-position: 0 -249px; 
+  width: 124px; 
+  margin-left: -124px;   
+} 
+div.md.wiki a[href="/flair-dino1 "], .flair-image-dino1 {
+  margin-left: 124px;
+}
+
+div.md.wiki a[href="/flair-dino2"]::before, .flair-image-dino2::before { background-position: 0 -299px; margin-left: -47px}
+
+div.md.wiki a[href="/flair-dog"]::before, .flair-image-dog::before  { background-position: 0 -349px; }
+
+div.md.wiki a[href="/flair-tory"]::before, .flair-image-tory::before  { background-position: 0 -399px; }
+
+div.md.wiki a[href="/flair-turtle"]::before, .flair-image-turtle::before { 
+  background-position: 0 -449px; 
+  width: 69px; 
+  margin-left: -75px;   
+} 
+
+div.md.wiki a[href="/flair-turtle "], .flair-image-turtle {
+  margin-left: 75px;   
+}
+
+div.md.wiki a[href="/flair-neocon"]::before, .flair-image-neocon::before { 
+  background-position: 0 -499px; 
+} 
+
+div.md.wiki a[href="/flair-turtle2"]::before, .flair-image-turtle2::before { 
+  background-position: 0 -549px; 
+  width: 55px; height: 38px;
+  margin-left: -65px;   
+} 
+
+div.md.wiki a[href="/flair-turtle2"], .flair-image-turtle2 {
+  margin-left: 65px;   
+}
+
+div.md.wiki a[href="/flair-tennessee"]::before, .flair-image-tennessee::before { 
+  background-position: 0 -597px; 
+  width: 146px; 
+  margin-left: -155px;   
+} 
+
+div.md.wiki a[href="/flair-tennessee"], .flair-image-tennessee {
+    margin-left: 152px;   
+}
+
+div.md.wiki a[href="/flair-rhino2"]::before, .flair-image-rhino2::before { 
+  background-position: 0 -647px; 
+} 
+
+div.md.wiki a[href="/flair-rino2"]::before, .flair-image-rino2::before { 
+  background-position: 0 -697px; width: 78px; 
+  margin-left: -90px;   
+} 
+
+div.md.wiki a[href="/flair-rino2"], .flair-image-rino2 {
+    margin-left: 84px;   
+}
+div.md.wiki a[href="/flair-rino3"]::before, .flair-image-rino3::before { 
+  background-position: 0 -747px; width: 88px; 
+  margin-left: -90px;   
+} 
+
+div.md.wiki a[href="/flair-rino3"], .flair-image-rino3 {
+    margin-left: 88px;   
+}
+
+div.md.wiki a[href="/flair-duck"]::before, .flair-image-duck::before {
+  background-position: 0 -797px; width: 23px;
+  margin-left: -36px;
+}
+
+div.md.wiki a[href="/flair-duck"], .flair-image-duck {
+    margin-left: 30px;
+}
+
+.tagline {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,9 @@
+div.titlebox span.word {
+  display: none;
+  }
+div.titlebox span.subscribers span.number:after {
+  content: " RINOs in the preserve"
+}
+div.titlebox p.users-online span.number:after {
+  content: " RINOs grazing now"
+}
