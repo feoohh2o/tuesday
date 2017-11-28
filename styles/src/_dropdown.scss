@@ -1,0 +1,46 @@
+/* sidebar dropdown menus */
+.titlebox .md ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.titlebox ul li {
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    display: none;
+    padding: 3px 3px 3px 13px;
+    text-align: left;
+    border-top: 1px solid #CCCCCC;
+    margin: 0px;
+}
+
+.titlebox ul li:hover {
+    background-color: #DDDDDD;
+}
+
+.titlebox ul li:nth-child(1):not(.flairsample-left) {
+    display: block;
+    color: black;
+    background-color: #EFEFEF;
+    display: inline-block;
+    font-size: 14px;
+    border: 0px;
+    border-bottom: 1px dotted #888888;
+    border-left: 3px solid #4D6277;
+    padding: 2px;
+    width: 100%;
+}
+
+.titlebox ul li:nth-child(1):not(.flairsample-left):hover {
+    color: black;
+    background-color: #C9D6E2;
+}
+
+.titlebox ul:hover > li {
+    display: block;
+}
+
+.titlebox ul li a:hover {
+    color: black;
+}
