@@ -1,0 +1,74 @@
+.linkflair-meme-tuesday .linkflairlabel {
+    background: #fa0a0a;
+    background: -moz-linear-gradient(left,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+    background: -webkit-linear-gradient(left,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+    background: -o-linear-gradient(left,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+    background: -ms-linear-gradient(left,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+    background: linear-gradient(to right,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+    color: #fff !important;
+    // -webkit-box-shadow: 5px 5px 21px 0 #eb0909;
+    // -moz-box-shadow: 5px 5px 21px 0 #eb0909;
+    // box-shadow: 5px 5px 21px 0 #eb0909;
+    border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border: none;
+    // -webkit-animation-name: pulse;
+    // -webkit-animation-duration: 0.5s;
+    // -webkit-animation-timing-function: linear;
+    // -webkit-animation-iteration-count: infinite;
+    // -moz-animation-name: pulse;
+    // -moz-animation-duration: 0.5s;
+    // -moz-animation-timing-function: linear;
+    // -moz-animation-iteration-count: infinite;
+    // animation-name: pulse;
+    // animation-duration: 0.5s;
+    // animation-timing-function: linear;
+    // animation-iteration-count: infinite;
+}
+
+// @-ms-keyframes pulse {
+//   0% {
+//     -webkit-transform:scale3d(1,1,1);
+//     transform:scale3d(1,1,1)
+//   }
+//   50%{
+//     -webkit-transform:scale3d(1.05,1.05,1.05);
+//     transform:scale3d(1.05,1.05,1.05);
+//     background:#0a0afa;
+//     background:-moz-linear-gradient(
+//       left,#0a0afa 0%,#8a038f 71%,#6b3200 100%
+//     );
+//     background:-webkit-linear-gradient(left,#0a0a19)
+//   }
+// }
+// @-o-keyframes pulse {
+//   0% {
+//     -webkit-transform:scale3d(1,1,1);
+//     transform:scale3d(1,1,1)
+//   }
+//   50% {
+//     -webkit-transform:scale3d(1.05,1.05,1.05);
+//     transform:scale3d(1.05,1.05,1.05);
+//     background:#0a0afa;
+//     background:-moz-linear-gradient(
+//       left,#0a0afa 0%,#8a038f 71%,#6b3200 100%
+//     );
+//     background:-webkit-linear-gradient(left,#0a0a19)
+//   }
+// }
+// @keyframes pulse{
+//   0% {
+//     -webkit-transform:scale3d(1,1,1);
+//     transform:scale3d(1,1,1)
+//   }
+//   50%{
+//     -webkit-transform:scale3d(1.05,1.05,1.05);
+//     transform:scale3d(1.05,1.05,1.05);
+//     background:#0a0afa;
+//     background:-moz-linear-gradient(
+//       left,#0a0afa 0%,#8a038f 71%,#6b3200 100%
+//       );
+//       background:-webkit-linear-gradient(left,#0a0a19)
+//   }
+// }
