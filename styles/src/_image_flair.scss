@@ -126,3 +126,13 @@ div.md.wiki a[href="/flair-duck"], .flair-image-duck {
   padding-top: 10px;
   padding-bottom: 5px;
 }
+
+div.md.wiki a[href="/flair-tory2"]::before, .flair-image-tory2::before {
+  background-position: 0 -847px;
+  width: 51px;
+  margin-left: -53px;
+}
+
+div.md.wiki a[href="/flair-tory2"], .flair-image-tory2 {
+    margin-left: 49px;
+}
