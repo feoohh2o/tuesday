@@ -1,0 +1,4 @@
+tmp/*
+flairs/tmp/*
+styles/.sass-cache/*
+styles/dist/*
