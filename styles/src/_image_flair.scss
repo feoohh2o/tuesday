@@ -4,14 +4,13 @@ div.md.wiki a[href^="/flair-"]::before, .flair-image::before {
   height: 40px;
   position: absolute;
   content: "";
-  margin-left: -45px;
+  margin-left: -50px;
   margin-top: -15px;
-  visibility: visible;
-}
+  visibility: visible; }
 
 
 div.md.wiki a[href^="/flair-"], .flair-image {
-  margin-left: 40px;
+  margin-left: 43px
 }
 
 .sidecontentbox .flair-image::before {
@@ -135,4 +134,27 @@ div.md.wiki a[href="/flair-tory2"]::before, .flair-image-tory2::before {
 
 div.md.wiki a[href="/flair-tory2"], .flair-image-tory2 {
     margin-left: 49px;
+}
+
+div.md.wiki a[href="/flair-auscon"]::before, .flair-image-auscon::before {
+  background-position: 0 -897px;
+}
+
+div.md.wiki a[href="/flair-auslib"]::before, .flair-image-auslib::before {
+  background-position: 0 -947px;
+}
+
+div.md.wiki a[href="/flair-tinfoilhat"]::before, .flair-image-tinfoilhat::before {
+  margin-top: -25px;
+  background-position: 0 -997px;
+}
+
+div.md.wiki a[href="/flair-pc"]::before, .flair-image-pc::before {
+  background-position: 0 -1047px;
+  width: 84px;
+  margin-left: -92px;
+}
+
+div.md.wiki a[href="/flair-pc"], .flair-image-pc {
+    margin-left: 89px;
 }
